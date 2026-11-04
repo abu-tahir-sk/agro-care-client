@@ -54,7 +54,7 @@ export default function RegisterPage() {
     panNumber: '',
     // Expert fields
     qualification: 'M.Sc in Agronomy / Plant Pathology',
-    institution: 'বিধানচন্দ্র কৃষি বিশ্ববিদ্যালয় (BCKV)',
+    institution: 'বিধানচন্দ্র কৃষি বিশ্ববিদ্যালয়',
     experienceYears: '৫ বছর',
   });
 
@@ -145,8 +145,8 @@ export default function RegisterPage() {
                     type="button"
                     onClick={() => setSelectedRole(r.id as UserRole)}
                     className={`p-4 rounded-2xl border flex flex-col items-center justify-center gap-2 text-center transition-all ${isSelected
-                        ? 'border-[#16834A] bg-[#E9F6EE] text-[#16834A] ring-2 ring-[#16834A] shadow-soft font-black'
-                        : 'border-[#E4EBE5] bg-white text-[#68766D] hover:border-slate-300'
+                      ? 'border-[#16834A] bg-[#E9F6EE] text-[#16834A] ring-2 ring-[#16834A] shadow-soft font-black'
+                      : 'border-[#E4EBE5] bg-white text-[#68766D] hover:border-slate-300'
                       }`}
                   >
                     <Icon className="w-6 h-6" />
